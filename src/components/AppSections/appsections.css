@@ -12,7 +12,7 @@
     margin: 50px auto;
     width: 86%;
     padding: 20px 10px;
-    background-color: white;;
+    background-color: white;
 }
 
 .app-section-text-content h3{
@@ -31,9 +31,9 @@
     margin: 0 auto;
 }
 
-.app-section-image_flipped {
+/*.app-section-image_flipped {
     order: 2
-}
+}*/
 
 .app-section-buttons{
     display:flex;
