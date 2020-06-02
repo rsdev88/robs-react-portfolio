@@ -1,1 +1,44 @@
+:root {
+  --purple: #551a8b;
+  --light-purple: #6b21af;
+  --dark-grey: #404040;
+  --teal: #367588;
+  --light-teal: #4ea4ac;
+  --green: #589f5a;
+  --light-green: #6bbe6e;
+}
 
+/* * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+} */
+
+html, body{
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+p{
+  padding: 5px 0;
+  line-height: 23px;
+}
+
+a, a:visited, a:focus {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--light-teal);
+  text-decoration: underline;
+}

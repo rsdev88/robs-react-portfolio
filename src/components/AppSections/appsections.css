@@ -1,0 +1,89 @@
+.app-sections {
+    width: 100%;
+    background-color: var(--light-teal);
+    padding: 30px 0;
+}
+
+.app-section{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 #00000057;
+    margin: 50px auto;
+    width: 86%;
+    padding: 20px 10px;
+    background-color: white;;
+}
+
+.app-section-text-content h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.app-section-text-content-body{
+    text-align: justify;
+}
+
+.app-section-image {
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 #00000057;
+    margin: 0 auto;
+}
+
+.app-section-image_flipped {
+    order: 2
+}
+
+.app-section-buttons{
+    display:flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.app-section-button,
+.app-section-button:focus,
+.app-section-button:visited{
+
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 #00000057;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+.app-section-button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    text-decoration: none;
+    color: white;
+}
+
+.app-section-button-text{
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.applink-button {
+    background-color: var(--green);
+}
+
+.applink-button:hover {
+    background-color: var(--light-green);
+}
+
+.github-button {
+    background-color: black;
+}
+
+.github-button:hover {
+    background-color: var(--dark-grey);
+}
+.github-button-icon{
+    font-size: 40px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+
