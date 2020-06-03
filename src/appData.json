@@ -72,7 +72,7 @@
                 "This time I decided to change things up a little and use Redux for the site's state management as this was another topic covered in Scrimba's Bootcamp that I wanted to practise.",
             "In a similar fashion to the Quizzical app, this repeating section that you're currently scrolling through gets all of its data from a JSON file when the site first loads, meaning that I can easily add more apps into the portfolio in future without changing the code."],            
             "gitHubLink": {
-                "href": "https://github.com/rsdev88/robs-react-porfolio",
+                "href": "https://github.com/rsdev88/robs-react-portfolio",
                 "text": "GitHub repo"
             }
         }
