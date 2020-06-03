@@ -30,7 +30,7 @@
             },
             "paragraphs": ["This app was the capstone project of Scrimba's React Bootcamp, pulling together all that I learnt including state, React's Context API, hooks, and React Router.",
                 "The app is intended to mimic an e-commerce site whereby you can favourite items and add them to your basket. In a separate page, you can then review your basket and \"buy\" the items - a timeout is used to mimic a purchase API call.",
-                "Once the bootcamp was finished, I continued experimenting and extended the app to save the favourited and basketed items to local storage so that they're not lost if the user refreshes their browser. I also improved the UX by adding a button to \"add all favourites to basket\" and a link to return to the home page when the basket it empty."],
+                "Once the Bootcamp was finished, I continued experimenting and extended the app to save the favourited and basketed items to local storage so that they're not lost if the user refreshes their browser. I also improved the UX by adding a button to \"add favourites to basket\" and a link to return to the home page when the basket it empty."],
             "appLink": {
                 "href": "https://reactshoppingbasket.now.sh/",
                 "text": "Visit site"
@@ -50,7 +50,7 @@
             },
             "paragraphs": ["I built this web app from scratch in order to practise my newfound skills following the successful completion of the Scrimba courses and Bootcamp. In doing so, I achieved the confidence to use React in a workplace setting by solidifying my understanding of its more advanced concepts such as prop types, the Context API, hooks, memoization, and controlled forms. I'm pleased to say that the end result is something that I’m proud of.",
                 "The app itself is a quiz game and pretty straightforward to play - you answer all of the questions, check your score, and then can go back to see what you got right/wrong and reveal the correct answers.",
-                "I built the app to read in much of its data from a JSON file when it first loads, including all of question-answer data. By using this approach, I've made it really simple to swap out the entire quiz with a new set of quesions and answers without having to make any code changes at all."],
+                "I built the app to read in much of its data from a JSON file when it first loads, including all of question-answer data. By using this approach, I've made it really simple to swap out the entire quiz with a new set of questions and answers without having to make any code changes at all."],
             "appLink": {
                 "href": "https://quizzical.now.sh/",
                 "text": "Visit site"
@@ -69,8 +69,8 @@
                 "order": "2"
             },
             "paragraphs": ["When I decided to showcase my apps in a portfolio, that in itself gave me another opportunity to hone my newfound React skills!",
-                "This time I decided to change things up a little and use Redux for the site's state management as this was another topic covered in Scrimba's bootcamp that I wanted to practise.",
-            "In a similar fashion to the Quizzical app, this repeating section that you're currently scrolling through gets all of its data from a JSON file when the site first loads, meaning that I can easily add more apps into the porfolio in future without changing the code."],            
+                "This time I decided to change things up a little and use Redux for the site's state management as this was another topic covered in Scrimba's Bootcamp that I wanted to practise.",
+            "In a similar fashion to the Quizzical app, this repeating section that you're currently scrolling through gets all of its data from a JSON file when the site first loads, meaning that I can easily add more apps into the portfolio in future without changing the code."],            
             "gitHubLink": {
                 "href": "https://github.com/rsdev88/robs-react-porfolio",
                 "text": "GitHub repo"
