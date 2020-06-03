@@ -10,17 +10,19 @@ function AppSection(props){
     return (
         <div className="app-section">
 
-            <img className={`app-section-image ${ isFlipped? "app-section-image_flipped" : ""}`}
-                src={image.url}
-                alt={image.altText}
-            />
+            <div className={`app-section-image-container ${ isFlipped? "app-section-image-container_flipped" : ""}`}> 
+                <img className="app-section-image"
+                    src={image.url}
+                    alt={image.altText}
+                />
+            </div>
 
             <div className="app-section-text-content">
                 <h3>{title}</h3>
                 
                 { paragraphs !== undefined && paragraphs.length > 0 && 
                 <div className="app-section-text-content-body">
-                    {paragraphs.map(paragraph => <p>{paragraph}</p>)}
+                    {paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
                 </div>
                 }
 
