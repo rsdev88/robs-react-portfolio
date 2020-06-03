@@ -11,14 +11,12 @@ function AppSections(){
         <AppSection key={application.id} data={application} />
     ))
 
-    const noApplicationsFoundElement =  <section className="applications-none-found"><p>No applications were found!</p></section>
+    const noApplicationsFoundElement =  <div className="app-section-none-found"><h2>No applications were found!</h2></div>
 
     return(
         <section className="app-sections">
-        {/* To do - style no applications found. */}
             {applicationsArray.length > 0 ? applicationElements : noApplicationsFoundElement}
-        </section>
-        
+        </section>   
     )
 }
 

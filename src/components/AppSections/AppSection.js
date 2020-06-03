@@ -1,9 +1,10 @@
 import React from "react"
+import ReactHtmlParser from "react-html-parser"
 import "./appsections.css"
 
 function AppSection(props){
 
-    const {title, image, paragraphs, appLink, gitHubLink} = props.data
+    const {title, image, bodyHtml, appLink, gitHubLink} = props.data
 
     const isFlipped = image.order === "2"
 
@@ -20,11 +21,9 @@ function AppSection(props){
             <div className="app-section-text-content">
                 <h3>{title}</h3>
                 
-                { paragraphs !== undefined && paragraphs.length > 0 && 
                 <div className="app-section-text-content-body">
-                    {paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+                    {ReactHtmlParser(bodyHtml)}
                 </div>
-                }
 
                 <div className="app-section-buttons">
                     {
