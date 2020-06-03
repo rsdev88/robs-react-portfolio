@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
+  
