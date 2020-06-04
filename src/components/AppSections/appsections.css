@@ -4,6 +4,12 @@
     padding: 30px 0;
 }
 
+.app-sections h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
 .app-section{
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +100,10 @@
 
 @media screen and (min-width: 645px){
 
+    .app-sections h2 {
+        font-size: 3em;
+    }
+
     .app-section{
         padding: 20px;
     }
@@ -114,6 +124,10 @@
 }
 
 @media screen and (min-width: 1024px){
+
+    .app-sections h2 {
+        font-size: 3.1em;
+    }
 
     .app-section{
         max-width: 1500px;

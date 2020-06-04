@@ -1,5 +1,6 @@
 import React from "react"
 import ReactHtmlParser from "react-html-parser"
+import PropTypes from "prop-types"
 import "./appsections.css"
 
 function AppSection(props){
@@ -42,6 +43,27 @@ function AppSection(props){
         </div>
 
     )
+}
+
+AppSection.propTypes = {
+    data: PropTypes.shape({
+        id: PropTypes.number,
+        title: PropTypes.string.isRequired,
+        image: PropTypes.shape({
+            url: PropTypes.string.isRequired,
+            altText: PropTypes.string.isRequired,
+            order: PropTypes.string.isRequired
+        }).isRequired,
+        bodyHtml: PropTypes.string.isRequired,
+        appLink: PropTypes.shape({
+            href: PropTypes.string.isRequired,
+            text: PropTypes.string.isRequired
+        }),
+        gitHubLink: PropTypes.shape({
+            href: PropTypes.string.isRequired,
+            text: PropTypes.string.isRequired
+        }).isRequired
+    }).isRequired
 }
 
 export default AppSection
