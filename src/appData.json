@@ -67,6 +67,24 @@
                 "href": "https://github.com/rsdev88/robs-react-portfolio",
                 "text": "GitHub repo"
             }
+        },
+        {
+            "id": 5,
+            "title": "Pokédex GraphQL Client",
+            "image": {
+                "url": "./images/PokedexScreenshot.png",
+                "altText": "Screenshot of the Pokédex web app.",
+                "order": "1"
+            },
+            "bodyHtml": "<p>I developed this web app following a standalone course that I completed on Scrimba which taught me how to call <strong>GraphQL</strong> APIs. The course introduced the fundamentals of using the <strong>Apollo</strong> and GraphQL libraries in React and made use of an open source GraphQL API which serves all the data you could possibly want on the late-90s cult classic cartoon, Pokémon!</p><p>I worked through the course to initially build a basic web page that retrieved a select amount of data for the first 10 Pokémon. Following on from the course, I continued to practise what I had learnt and significantly enhanced the app into a fully fledged encyclopaedia (aka, &ldquo;Pokédex&rdquo;) styled for mobile first, complete with a fast search function and results page, pagination of homepage, and a details page for all 151 Pokémon with rich information and imagery. In doing this, I gained a deeper understanding of how GraphQL and Apollo work, and improved my CSS skills, especially in using <strong>CSS Grid Layout</strong>.</p><p><strong>Concepts used: </strong></p><ul><li>GraphQL</li><li>Apollo</li><li>React Router</li><li>State</li><li>Hooks (including custom hooks)</li><li>Controlled forms</li></ul>",            
+            "appLink": {
+                "href": "https://react-pokedex.robsangar.now.sh/",
+                "text": "Visit site"
+            },
+            "gitHubLink": {
+                "href": "https://github.com/rsdev88/graphql-pokemon-client",
+                "text": "GitHub repo"
+            }
         }
     ]
 }
