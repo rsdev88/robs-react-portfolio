@@ -6,6 +6,15 @@
   --light-teal: #4ea4ac;
   --green: #589f5a;
   --light-green: #6bbe6e;
+  --black-shadow: #00000057;
+}
+
+@font-face{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato'), url('./fonts/Lato-Regular.ttf') format('truetype');
+  font-display: swap;
 }
 
 html, body{
