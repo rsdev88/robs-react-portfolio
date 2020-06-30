@@ -1,6 +1,6 @@
 .hero {
     background-image: url("https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-size: cover;
+    background-size: contain;
     height: 75vh;
 
   }
@@ -9,7 +9,7 @@
     height: 75vh;
     width: 100vw;
     background: #000000;
-    opacity: 0.7;
+    opacity: 0.8;
     position: absolute;
     top:0;
     left:0;
@@ -45,7 +45,7 @@
       width: 70%;
   }
 
-  @media screen and (max-width: 1024px) and (max-height: 700px){
+  @media screen and (max-width: 1024px) and (max-height: 550px){
     .hero-image {
       max-height: 200px;
     }

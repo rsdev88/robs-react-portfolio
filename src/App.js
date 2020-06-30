@@ -1,11 +1,11 @@
-import React, {useEffect} from 'react'
+import React, {lazy, useEffect, Suspense} from 'react'
 import {useDispatch} from "react-redux"
 import Hero from "./components/Hero/Hero"
 import Intro from "./components/Intro/Intro"
-import AppSections from "./components/AppSections/AppSections"
-import Footer from "./components/Footer/Footer"
 import { setApplicationsList } from './redux/applicationsList'
 import appDataJSON from "./appData.json"
+const AppSections = lazy(() => import("./components/AppSections/AppSections"))
+const Footer = lazy(() => import("./components/Footer/Footer"))
 
 function App() {
 
@@ -18,8 +18,10 @@ function App() {
     <>
       <Hero />
       <Intro/>
-      <AppSections/>
-      <Footer />
+      <Suspense fallback={"Loading..."}>
+        <AppSections/>
+        <Footer />
+      </Suspense>
     </>
   )
 }
